@@ -1,0 +1,194 @@
+#tallNav{
+    height: 100%;
+    border-right: 2.5px solid white;
+    position: absolute;
+    z-index: 2;
+    background: none;
+    width: 10%;
+}
+
+#logoBox{
+    background: url('../img/assets/logo.png') no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    margin-left: 2%;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+#logoText{
+    color: white;
+    font-weight: bold;
+    max-width: 100%;
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#logoText p{
+    font-size: 300%;
+    margin: none;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 10px;
+}
+#media{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 2%;
+    margin-left: 40%;
+}
+
+#media ul{
+    list-style: none;
+    padding: 0;
+}
+#media li{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 50%;
+}
+#media img{
+    width: 100%;
+}
+#news{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    left:9.5%;
+    width: 90%;
+    height: 30%;
+}
+
+#newsBlur{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.411);
+    backdrop-filter: blur(18px);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+#news h4{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    display: block;
+    /* border: 2px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.newsCol,.newsRoll{
+    width: 30%;
+    height: 100%;
+    float: left;
+    filter: blur(8);
+    margin-left: 0.5%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.insideNews{
+    padding: 0;
+
+}
+.insideNews h6{
+    width: 100%;
+    text-align: left;
+    font-size: 62%;
+    color: grey;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.insideNews h5{
+    width: 100%;
+    text-align: left;
+    font-size: 62%;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.newsRoll{
+    width: 38.5%;
+    font-size: 14px;
+    overflow: hidden;
+}
+.newsRoll ul{
+    max-height: 100px;
+    overflow: hidden;
+}
+.newsRoll ul li ul{
+    margin-left: -65%;
+}
+.newsRoll ul li ul li{
+    float: left;
+    margin-left: 15px;
+}
+
+.newsRoll ul li ul:hover{
+    list-style: disc;
+    color: white;
+    cursor: pointer;
+}
+#leftNav{
+    /* border: 2px solid red; */
+    width: 250px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 12%;
+    z-index: 2;
+    padding-left: 10px;
+}
+#leftNav #count{
+    color: red;
+    margin-left: 0;
+    font-size: 23px;
+}
+#leftNav #count span{
+    color: white;
+}
+
+#line{
+    background-color: white;
+    height: 2px;
+    width: 75%;
+    margin-top: -25px;
+    overflow: hidden;
+}
+#line #lineSlide{
+    background: red;
+    height: 2px;
+    width: 30%;
+    transition: 0.3s ease all;
+}
+
+#butA,#butB{
+    outline: none;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    color: red;
+    float: right;
+    margin-right: 70px;
+}
+#butA{
+margin-top: 15px;
+}
+#butB{
+margin-top: -20px;
+margin-right: -10px;
+}
+
+
+#banPar ul{
+    padding-left: 0;
+    width: 120px;
+    margin-top: 25px;
+}
+#banPar li{
+    color: grey;
+    transition: 0.5s ease all;
+    list-style: none;
+    font-size: 14px;
+    margin-left: 0;
+    line-height: 15px;
+    margin-top: 10px;
+}

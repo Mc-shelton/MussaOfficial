@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
+  
   max-height: 40px;
 }
 
@@ -118,6 +119,9 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     background: rgba(26, 24, 22, 0.85);
   }
+}
+@media (max-width: 1172px) {
+  
 }
 
 /*--------------------------------------------------------------
@@ -1198,6 +1202,7 @@ section {
   overflow: hidden;
   border-right: 3px solid #fff;
   border-bottom: 3px solid #fff;
+  height: 250px;
 }
 
 .gallery .gallery-item img {

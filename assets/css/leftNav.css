@@ -224,4 +224,12 @@ margin-right: -10px;
     right: 0%;
     margin-top: 30%;
   }
+  .newsCol{
+    display: none;
+    width: 100%;
+  }
+  .newsRoll{
+    display: none;
+    width: 100%;
+  }
 }
